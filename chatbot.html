@@ -74,8 +74,11 @@
   <script type="module">
     import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
+    const params = new URLSearchParams(window.location.search);
+    const webhookUrl = params.get('webhook') || 'http://localhost:5678/webhook/4091fa09-fb9a-4039-9411-7104d213f601/chat';
+
     createChat({
-      webhookUrl: 'http://localhost:5678/webhook/4091fa09-fb9a-4039-9411-7104d213f601/chat', // Production Chat URL from n8n
+      webhookUrl,
       target: '#n8n-chat',           // CSS selector of container
       mode: 'window',                // or 'fullscreen'
       showWelcomeScreen: true,       // optional
