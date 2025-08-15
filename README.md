@@ -1,6 +1,6 @@
 # 🧠 FAQ Chatbot
 
-An AI-powered Retrieval-Augmented Generation (RAG) chatbot, built using **n8n** and the **Google Gemini** model.  
+An AI-powered Retrieval-Augmented Generation (RAG) chatbot + voicebot, built using **n8n**, **ElevenLabs** and the **Google Gemini** model.  
 It allows users to upload documents (`.pdf`, `.csv`, `.docx`, `.doc`) and query them through an embeddable chat widget with real-time, context-aware answers.
 
 ---
