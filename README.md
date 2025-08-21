@@ -27,6 +27,7 @@ It allows users to upload documents (`.pdf`, `.csv`, `.docx`, `.doc`) and query 
 
 ## 📂 Project Structure
 │── chatbot.html # Chat widget UI
+
 │── TRIVESTA-CHATBOT.json # n8n workflow definition
 
 ---
